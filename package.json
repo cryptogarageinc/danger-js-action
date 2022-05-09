@@ -1,10 +1,10 @@
 {
   "name": "danger-js-action",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "danger": "danger ci",
+    "danger": "danger ci --dangerfile dangerfile.js",
     "lint": "eslint --fix -c ./.eslintrc.json './dangerfile.ts'"
   },
   "devDependencies": {
