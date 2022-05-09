@@ -1,10 +1,7 @@
 /* eslint-disable no-console */
-const dangerObj = require('danger');
-const danger = dangerObj.danger;
-const warn = dangerObj.warn;
+const {danger, warn} = require('danger');
 const marked = require('marked');
-const jsdom = require('jsdom');
-const JSDOM = jsdom.JSDOM;
+const {JSDOM} = require('jsdom');
 
 const checkExistTitle = (html) => {
   if (html.indexOf('Proposed Changes') == -1) {
