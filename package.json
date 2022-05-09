@@ -8,10 +8,11 @@
     "lint": "eslint --fix -c ./.eslintrc.json './dangerfile.ts'"
   },
   "devDependencies": {
-    "@types/jsdom": "16.2.3",
-    "@types/marked": "0.7.4",
-    "danger": "10.2.0",
-    "marked": "1.1.0",
-    "jsdom": "16.2.2"
-  }
+    "@types/jsdom": "16.2.14",
+    "@types/marked": "4.0.3",
+    "danger": "11.0.2",
+    "jsdom": "19.0.0",
+    "marked": "4.0.15"
+  },
+  "packageManager": "yarn@3.2.0"
 }
