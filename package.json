@@ -1,0 +1,17 @@
+{
+  "name": "danger-js-action",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "danger": "danger ci",
+    "lint": "eslint --fix -c ./.eslintrc.json './dangerfile.ts'"
+  },
+  "devDependencies": {
+    "@types/jsdom": "16.2.3",
+    "@types/marked": "0.7.4",
+    "danger": "10.2.0",
+    "marked": "1.1.0",
+    "jsdom": "16.2.2"
+  }
+}
